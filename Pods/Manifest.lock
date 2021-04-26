@@ -1,0 +1,59 @@
+PODS:
+  - Alamofire (4.9.1)
+  - KeychainSwift (10.0.0)
+  - ReachabilitySwift (4.3.1)
+  - RxAlamofire (4.4.1):
+    - RxAlamofire/Core (= 4.4.1)
+  - RxAlamofire/Core (4.4.1):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 4.5)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxReachability (0.1.6):
+    - ReachabilitySwift (~> 4.3.0)
+    - RxCocoa (~> 4)
+    - RxSwift (~> 4)
+  - RxSwift (4.5.0)
+  - SwiftLint (0.43.1)
+
+DEPENDENCIES:
+  - KeychainSwift (~> 10.0)
+  - RxAlamofire
+  - RxCocoa
+  - RxReachability (from `https://github.com/bmoliveira/RxReachability`, branch `master`)
+  - RxSwift
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - KeychainSwift
+    - ReachabilitySwift
+    - RxAlamofire
+    - RxCocoa
+    - RxSwift
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  RxReachability:
+    :branch: master
+    :git: https://github.com/bmoliveira/RxReachability
+
+CHECKOUT OPTIONS:
+  RxReachability:
+    :commit: 23757937f0fd34227733aacd3805a36db4cd77f3
+    :git: https://github.com/bmoliveira/RxReachability
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  KeychainSwift: f9f7910449a0c0fd2cabc889121530dd2c477c33
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  RxAlamofire: ed65f451f5a9a59419b0b9e705043dc01410edd9
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxReachability: d4bceabdf5525a28ee1a272b13a9533dd940b5aa
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+
+PODFILE CHECKSUM: 3c0c2e2cecdff7427332ea92e228e9328fb24ad2
+
+COCOAPODS: 1.10.1

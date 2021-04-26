@@ -1,0 +1,6 @@
+framework module Pods_mesa_newsTests {
+  umbrella header "Pods-mesa newsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
